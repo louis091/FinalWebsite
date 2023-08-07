@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nike Store</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "../css/main-site.css">
+    <script src="https://kit.fontawesome.com/eae1dc0e8f.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="../index.php">
+              <img src="../assets/img/logo.png" alt="">
+          </a>
+          <!--end of  logo-->
+            <div class = "order-lg-2 nav-btns">
+                <button type = "button" class = "btn position-relative">
+                  <a style="color: inherit;" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+                <button type = "button" name = "login-user" class = "btn position-relative">
+                  <a style="color: inherit;" href="../login.php"><i class = "fa fa-user"></i></a>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle = "collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+
+                    <li class="nav-item px-2 py-2 dropdown">
+                        <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">sản phẩm</a>                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../products/products_sports.php">Đồ thể thao</a>
+                            <a class="dropdown-item" href="../products/products_shirts.php">Áo</a>
+                            <a class="dropdown-item" href="../products/products_pants.php">Quần</a>
+                            <a class="dropdown-item" href="../products/products_shoes.php">Giày</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="services.html">Dịch vụ</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="contact.php">Liên hệ</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="aboutus.html">Giới thiệu</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--end of navbar -->
+    <!--Service-->
+    <div class="container_service">
+      <h1 class="text-uppercase">Tất cả dịch vụ</h1>
+      <div class="row_service">
+          <div class="service">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h2>Mua sắm trực tuyến</h2>
+              <p>Tận hưởng trải nghiệm mua sắm tiện lợi và đa dạng với Nike. Khám phá bộ sưu tập đa dạng của chúng tôi, từ giày dép, quần áo, phụ kiện đến thiết bị thể thao chất lượng cao. Dễ dàng duyệt qua các danh mục sản phẩm, tìm kiếm theo phong cách, màu sắc hoặc kích thước để tìm được những sản phẩm phù hợp với sở thích và nhu cầu của bạn. Với giao diện trực quan và tiện ích thanh toán an toàn, việc mua sắm trực tuyến chưa bao giờ dễ dàng và tiện lợi đến thế.</p>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-pen"></i>
+              <h2>Tùy chỉnh sản phẩm</h2>
+              <p>Tạo nên phong cách riêng của bạn với dịch vụ tùy chỉnh sản phẩm tại Nike. Cho phép bạn thể hiện cá nhân hóa và sáng tạo, chúng tôi cung cấp các công cụ và tùy chọn để bạn tạo ra sản phẩm độc đáo và độc nhất vô nhị. Từ việc thay đổi màu sắc, in hình ảnh, thêm logo hoặc tên riêng, bạn có thể tạo ra một sản phẩm hoàn toàn độc đáo và phù hợp với phong cách và cá nhân của mình. Hãy khám phá và tạo nên sự khác biệt của riêng bạn hôm nay!</p>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-truck-fast"></i>
+              <h2>Giao hàng nhanh chóng</h2>
+              <p>Chúng tôi cam kết đem đến cho bạn trải nghiệm giao hàng nhanh chóng và thuận tiện. Với hệ thống vận chuyển hiện đại và đội ngũ nhân viên chuyên nghiệp, chúng tôi đảm bảo đơn hàng của bạn sẽ được giao đến tận nơi một cách nhanh chóng và an toàn. Bạn không cần lo lắng về việc chờ đợi lâu hay mất hàng, vì chúng tôi luôn đặt sự hài lòng của khách hàng lên hàng đầu. Hãy đặt hàng ngay và trải nghiệm dịch vụ giao hàng nhanh chóng của chúng tôi ngay hôm nay! </p>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-person"></i>
+              <h2>Chương trình thành viên</h2>
+              <p>Tham gia ngay chương trình thành viên của chúng tôi để nhận được nhiều ưu đãi hấp dẫn. Với việc đăng ký thành viên, bạn sẽ được tận hưởng những ưu đãi đặc biệt, giảm giá sản phẩm, và nhận được thông tin về các chương trình khuyến mãi sớm nhất. Không chỉ vậy, chúng tôi còn dành cho bạn những phần thưởng đặc biệt và quà tặng độc quyền. Hãy trở thành thành viên của chúng tôi ngay để trải nghiệm những lợi ích tuyệt vời và tiết kiệm hơn khi mua sắm</p>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-vr-cardboard"></i>
+              <h2>Trải nghiệm ảo</h2>
+              <p> Khám phá thế giới ảo tuyệt vời với chúng tôi! Chúng tôi mang đến cho bạn trải nghiệm ảo chân thực và đầy kịch tính. Với công nghệ tiên tiến, bạn sẽ được đắm chìm trong không gian ảo sống động, tương tác với những thế giới hấp dẫn và trải nghiệm những hoạt động độc đáo. Từ việc khám phá văn hóa đa dạng, tham gia vào trò chơi thú vị đến việc tạo nên những kỷ niệm đáng nhớ, trải nghiệm ảo của chúng tôi sẽ mang đến cho bạn những trải nghiệm không thể quên. Hãy tham gia ngay và khám phá thế giới ảo tuyệt vời này!</p>
+          </div>
+          <div class="service">
+              <i class="fa-regular fa-credit-card"></i>
+              <h2>Phương thức thanh toán</h2>
+              <p>Để mang đến sự tiện lợi và an tâm cho khách hàng, chúng tôi cung cấp nhiều phương thức thanh toán linh hoạt. Bạn có thể thanh toán bằng thẻ tín dụng, thẻ ghi nợ, ví điện tử và cả thanh toán khi nhận hàng (COD). Chúng tôi đảm bảo an toàn thông tin thanh toán và sử dụng công nghệ mã hóa tiên tiến. Bạn cũng có thể tận hưởng chính sách trả góp linh hoạt với các đối tác tài chính của chúng tôi. Hãy lựa chọn phương thức thanh toán phù hợp và trải nghiệm mua sắm dễ dàng trên Nike.</p>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-certificate"></i>
+              <h2>Sản phẩm chất lượng cao</h2>
+              <p>Chúng tôi tự hào mang đến cho bạn những sản phẩm vượt trội về chất lượng. Chúng tôi đặt sự chăm sóc và kiểm tra kỹ lưỡng vào từng sản phẩm trước khi đến tay bạn. Chất liệu được chọn lựa kỹ càng và thiết kế độc đáo, mang đến sự sang trọng và đẳng cấp. Chúng tôi cam kết rằng sản phẩm của chúng tôi sẽ đáp ứng mọi mong đợi của bạn và đem lại trải nghiệm tuyệt vời. Hãy trải nghiệm sự khác biệt và sự tinh tế của sản phẩm chất lượng cao từ chúng tôi.</p>
+          </div>
+          <div class="service">
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <h2>Chính sách đổi trả linh hoạt</h2>
+              <p>Chúng tôi cam kết mang đến sự hài lòng tuyệt đối cho khách hàng. Bạn có thể yên tâm mua sắm với chúng tôi vì chúng tôi áp dụng chính sách đổi trả trong vòng 30 ngày kể từ ngày mua hàng. Để được đổi trả, sản phẩm phải còn nguyên vẹn, không bị hư hỏng và không sử dụng quá mức. Chúng tôi luôn lắng nghe và đáp ứng nhu cầu của bạn, vì vậy hãy yên tâm mua sắm và trải nghiệm dịch vụ tuyệt vời từ chúng tôi.</p>
+          </div>
+      </div>
+  </div>
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div>
+              <h3 class="footer-title text-white text-uppercase">The Nike Store</h3>
+              <p class="footer-content mb-30 text-white">Nike - một thương hiệu thể thao hàng đầu trên toàn cầu, mang đến sự kết hợp hoàn hảo giữa phong cách và hiệu suất. Với hơn một thế kỷ kinh nghiệm, Nike đã trở thành biểu tượng của sự đổi mới và sự cống hiến trong ngành công nghiệp thể thao. Với một loạt sản phẩm đa dạng từ giày dép, quần áo, phụ kiện cho đến thiết bị thể thao, Nike luôn tạo ra những sản phẩm chất lượng cao, mang đến sự thoải mái và sự tự tin cho người dùng. Với cam kết không ngừng nâng cao và vượt qua giới hạn, Nike không chỉ là một thương hiệu, mà còn là một phong cách sống. Hãy trang bị bản thân với Nike và khám phá sức mạnh bên trong bạn. Just do it!</p>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+            <div class="">
+              <h4 class="footer-title text-white text-uppercase">Products</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="../products/products_shirts.php" class="text-decoration-none">Áo</a>
+                </li>
+                <li>
+                  <a href="../products/products_pants.php" class="text-decoration-none">Quần</a>
+                </li>
+                <li>
+                  <a href="../products/products_shoes.php" class="text-decoration-none">Giày</a>
+                </li>
+                <li>
+                  <a href="../products/products_sports.php" class="text-decoration-none">Đồ thể thao</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div>
+              <h4 class="footer-title text-white text-uppercase">About Nike</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none">Tin tức</a>
+                </li>
+                <li>
+                  <a href="aboutus.html" class="text-decoration-none">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="contact.php" class="text-decoration-none">Liên hệ</a>
+                </li>
+                <li>
+                  <a href="services.html" class="text-decoration-none">Dịch vụ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div>
+              <h4 class="footer-title text-white text-uppercase">Address</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <p class="text-white">0909123456</p>
+                </li>
+                <li>
+                  <p class="text-white">Van Lang University</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+    
+          <div class="copyright">
+            <p class="text-white">Xây dựng và phát triển bởi <a href="#" target="_blank">Cát Đoan, Quang Vũ, Xuân Lợi, Thanh Sơn, Quốc Bảo</a></p>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!--End of Footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
